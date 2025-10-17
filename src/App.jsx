@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Home from "./pages/Home";
 import ProductDetails from "./components/ProductDetails";
-import products from "./data/products";
+import products from "./data/products.json";
 
 export default function App() {
   const [selectedProductId, setSelectedProductId] = useState(null);
