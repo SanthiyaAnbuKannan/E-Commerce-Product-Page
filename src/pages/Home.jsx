@@ -1,5 +1,5 @@
 import { useState } from "react";
-import products from "../data";
+import Products from "../data/Products";
 import ProductCard from "../components/ProductCard";
 
 
