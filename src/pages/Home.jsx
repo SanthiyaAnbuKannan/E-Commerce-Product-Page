@@ -1,6 +1,8 @@
 import { useState } from "react";
 import products from "../data/products";
 import ProductCard from "../components/ProductCard";
+import products from '../data/products.json';
+
 
 export default function Home({ onSelectProduct }) {
   const [filters, setFilters] = useState({
