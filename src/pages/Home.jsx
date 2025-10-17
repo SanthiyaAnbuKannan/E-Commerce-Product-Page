@@ -1,7 +1,7 @@
 import { useState } from "react";
-import products from "../data/products";
+import products from "../data";
 import ProductCard from "../components/ProductCard";
-import products from '../data/products.json';
+
 
 
 export default function Home({ onSelectProduct }) {
